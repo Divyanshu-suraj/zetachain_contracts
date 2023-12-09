@@ -1,0 +1,339 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\zetachain_contracts\\template\\contracts\\MyContract.sol": {
+      "lastModificationDate": 1701839127595,
+      "contentHash": "d004d638436b33298309835caf4d18a7",
+      "sourceName": "contracts/MyContract.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@zetachain/protocol-contracts/contracts/zevm/SystemContract.sol",
+        "@zetachain/protocol-contracts/contracts/zevm/interfaces/zContract.sol"
+      ],
+      "versionPragmas": [
+        "0.8.7"
+      ],
+      "artifacts": [
+        "MyContract"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@zetachain\\protocol-contracts\\contracts\\zevm\\SystemContract.sol": {
+      "lastModificationDate": 1701838644866,
+      "contentHash": "2c6c400edb4cd00819aff9074c32c2ff",
+      "sourceName": "@zetachain/protocol-contracts/contracts/zevm/SystemContract.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/zContract.sol",
+        "./interfaces/IZRC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.7"
+      ],
+      "artifacts": [
+        "SystemContract",
+        "SystemContractErrors"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@zetachain\\protocol-contracts\\contracts\\zevm\\interfaces\\zContract.sol": {
+      "lastModificationDate": 1701838645290,
+      "contentHash": "89094b6cc9a0ca12d69f127d7491e537",
+      "sourceName": "@zetachain/protocol-contracts/contracts/zevm/interfaces/zContract.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.7"
+      ],
+      "artifacts": [
+        "zContract"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@zetachain\\protocol-contracts\\contracts\\zevm\\interfaces\\IZRC20.sol": {
+      "lastModificationDate": 1701838645290,
+      "contentHash": "4fcf2941b3c095b5cb3da9ba70fc9c20",
+      "sourceName": "@zetachain/protocol-contracts/contracts/zevm/interfaces/IZRC20.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.7"
+      ],
+      "artifacts": [
+        "IZRC20"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@zetachain\\toolkit\\contracts\\SwapHelperLib.sol": {
+      "lastModificationDate": 1701838644499,
+      "contentHash": "398ac94bb7f89c3da1a85e62ab1d388d",
+      "sourceName": "@zetachain/toolkit/contracts/SwapHelperLib.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+        "@zetachain/protocol-contracts/contracts/zevm/interfaces/IZRC20.sol",
+        "@zetachain/protocol-contracts/contracts/zevm/SystemContract.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.7"
+      ],
+      "artifacts": [
+        "SwapHelperLib"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1701838645026,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+      "lastModificationDate": 1701838645023,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\contracts\\Swap.sol": {
+      "lastModificationDate": 1701842307188,
+      "contentHash": "41a93de2715448f2ed12123ff37b3c6c",
+      "sourceName": "contracts/Swap.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@zetachain/protocol-contracts/contracts/zevm/SystemContract.sol",
+        "@zetachain/protocol-contracts/contracts/zevm/interfaces/zContract.sol",
+        "@zetachain/toolkit/contracts/SwapHelperLib.sol",
+        "@zetachain/toolkit/contracts/BytesHelperLib.sol"
+      ],
+      "versionPragmas": [
+        "0.8.7"
+      ],
+      "artifacts": [
+        "Swap"
+      ]
+    },
+    "E:\\zetachain_contracts\\template\\node_modules\\@zetachain\\toolkit\\contracts\\BytesHelperLib.sol": {
+      "lastModificationDate": 1701838644488,
+      "contentHash": "ef9a22b35156e998e5930a3ac41a21ae",
+      "sourceName": "@zetachain/toolkit/contracts/BytesHelperLib.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.7"
+      ],
+      "artifacts": [
+        "BytesHelperLib"
+      ]
+    }
+  }
+}
